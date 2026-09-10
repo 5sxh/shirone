@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 	site: "https://xn--kivr36a.1qw.top/",
 	base: "/",
 	title: "星痕的Blog",
-	subtitle: 一个建立于21世纪的Blog，存活于互联网的边缘。",
+	subtitle: "一个建立于21世纪的Blog，存活于互联网的边缘。",
 	// 电脑端顶栏标题与导航内容区域："left" 左对齐，"center" 居中。
 	topAppBar: {
 		contentAlign: "center",
