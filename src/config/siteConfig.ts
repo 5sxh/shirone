@@ -70,7 +70,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		homeText: {
 			// 仅在首页 Banner 中显示，标题与副标题会上下居中排列。
 			enable: true,
-			title: "Shirone",
+			title: "Hi~ 欢迎来到我的Blog",
 			subtitle: [
 				                                "我这个人走得很慢，但是我从不后退。——亚伯拉罕·林肯",
                                 "深窥自己的心，而后发觉一切的奇迹在你自己。——培根",
