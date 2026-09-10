@@ -118,9 +118,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 const defaultNavBarConfig: NavBarConfig = {
 	links: [
 		LinkPresets.Home,
-		LinkPresets.Friends,
 		LinkPresets.Moments,
-		LinkPresets.Anime,
 		LinkPresets.Compass,
 		LinkPresets.Albums,
 		{
@@ -133,9 +131,11 @@ const defaultNavBarConfig: NavBarConfig = {
 				...(skillsConfig.enable ? [LinkPresets.Skills] : []),
 				// 分类/标签入口不进导航菜单（避免菜单项过多），预设已登记指向独立页面，
 				// 需要时取消注释即可
+  		LinkPresets.Friends,
 	  	LinkPresets.Archive,
    LinkPresets.About,
 /*
+   LinkPresets.Anime,
 				LinkPresets.Categories,
 				LinkPresets.Tags,	
 				LinkPresets.GitHub,
