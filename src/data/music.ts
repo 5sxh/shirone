@@ -41,7 +41,7 @@ export const musicTracks: readonly TrackDescriptor[] = [
 		id: "ry",
 		title: "如愿",
 		artist: "王菲",
-		cover: "assets/music/ry.webp",
+		cover: "/assets/music/cover/ry.webp",
 		source: "/assets/music/url/ry.mp3",
 		duration: 265,
 	},
