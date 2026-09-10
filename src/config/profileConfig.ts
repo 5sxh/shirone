@@ -7,9 +7,20 @@ import { withUserConfig } from "../utils/config-overlay.ts";
  */
 export const profileConfig: ProfileConfig = withUserConfig("profile", {
 	avatar: "assets/images/demo-avatar.webp", // Relative to the /src directory. Relative to the /public directory if it starts with '/'
-	name: "Shirone",
-	bio: "The rain remembers what the sky forgot to say.",
+	name: "Hi~我是星痕",
+	bio: "世界这么大，应该去看看。",
 	links: [
+ {
+			name: "GitHub",
+			icon: "fa6-brands:github",
+			url: "https://github.com/5sxh",
+		},
+		{
+			name: "Email",
+			icon: "material-symbols:mail-rounded",
+			url: "mailto:xsxinghen@5xh.top",
+		},
+/*
 		{
 			name: "Twitter",
 			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
@@ -27,5 +38,6 @@ export const profileConfig: ProfileConfig = withUserConfig("profile", {
 			icon: "fa6-brands:github",
 			url: "https://github.com/LyraVoid/Shirone",
 		},
+*/
 	],
 });
